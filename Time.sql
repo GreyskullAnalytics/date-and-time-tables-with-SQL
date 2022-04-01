@@ -26,7 +26,7 @@ SELECT
 FROM
     Range r
 WHERE 
-    DATEADD(SECOND, r.RowNumber-1, '1900-1-1' ) < '1900-1-2'
+    DATEADD(SECOND, r.RowNumber, '1900-1-1' ) < '1900-1-2'
 )
 
 /* time table query */
